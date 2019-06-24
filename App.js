@@ -10,7 +10,7 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
 import Header from './Header'
 
-const Footer = () => {
+Footer = () => {
   
   return(
     <View>
