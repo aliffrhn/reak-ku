@@ -11,11 +11,11 @@ import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
 import Header from './Header'
 
 Footer = () => {
-  
+  var txt = "TestText"
   return(
     <View>
       <Text>
-        ini Footer
+        {txt}
       </Text>
     </View>
   )
