@@ -13,7 +13,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View>
-        <StatusBar backgroundColor="red"/>
+        <StatusBar backgroundColor="blue"/>
         <Text>Test</Text>
       </View>
     );
