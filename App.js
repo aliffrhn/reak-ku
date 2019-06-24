@@ -10,6 +10,17 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
 import Header from './Header'
 
+const Footer = () => {
+  
+  return(
+    <View>
+      <Text>
+        ini Footer
+      </Text>
+    </View>
+  )
+}
+
 export default class App extends Component<Props> {
   
   render() {
@@ -18,6 +29,7 @@ export default class App extends Component<Props> {
         <StatusBar backgroundColor="blue"/>
         <Header />
         <Text>Test</Text>
+        <Footer />
       </View>
     );
   }
