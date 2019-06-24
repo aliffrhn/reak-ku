@@ -9,7 +9,19 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
 
+class header extends Component{
+  
+  render(){
+    return(
+      <Text>
+        Check Header
+      </Text>
+    )
+  }
+}
+
 export default class App extends Component<Props> {
+  
   render() {
     return (
       <View>
