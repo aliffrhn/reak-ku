@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
+import {Text, View, StatusBar} from 'react-native';
 import Header from './Header'
 import Footer from './Footer'
 
