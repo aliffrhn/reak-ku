@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Text } from 'react-native'
 
-export default class Header extends React.Component{
+export default class Header extends Component{
   
     render(){
       return(
