@@ -14,12 +14,13 @@ import Footer from './Footer'
 export default class App extends Component<Props> {
   
   render() {
+
     return (
       <View>
         <StatusBar backgroundColor="blue"/>
-        <Header />
+        <Header text="Check Header" />
         <Text>Test</Text>
-        <Footer />
+        <Footer text="Check Footer" />
       </View>
     );
   }

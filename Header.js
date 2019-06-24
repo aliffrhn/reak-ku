@@ -4,9 +4,10 @@ import { Text } from 'react-native'
 export default class Header extends Component{
   
     render(){
+
       return(
         <Text>
-          Check Header
+          {this.props.text}
         </Text>
       )
     }

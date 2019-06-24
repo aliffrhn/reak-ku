@@ -6,7 +6,7 @@ export default Footer = () => {
     return(
       <View>
         <Text>
-          {txt}
+          {txt} {props.text}
         </Text>
       </View>
     )
