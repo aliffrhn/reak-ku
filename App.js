@@ -9,17 +9,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
 import Header from './Header'
-
-Footer = () => {
-  var txt = "TestText"
-  return(
-    <View>
-      <Text>
-        {txt}
-      </Text>
-    </View>
-  )
-}
+import Footer from './Footer'
 
 export default class App extends Component<Props> {
   
