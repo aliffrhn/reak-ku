@@ -9,7 +9,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
 
-class header extends Component{
+class Header extends Component{
   
   render(){
     return(
@@ -26,6 +26,7 @@ export default class App extends Component<Props> {
     return (
       <View>
         <StatusBar backgroundColor="blue"/>
+        <Header />
         <Text>Test</Text>
       </View>
     );
